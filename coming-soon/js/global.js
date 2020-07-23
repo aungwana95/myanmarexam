@@ -13,14 +13,14 @@ $( function() {
 		]
 	} )( 'overlay' );
 	
-        var endDate = "July  18, 2020 15:03:25";
+        var endDate = "August 11, 2020 15:03:25";
 
         $('.countdown.simple').countdown({ date: endDate });
 
         $('.countdown.styled').countdown({
           date: endDate,
           render: function(data) {
-            $(this.el).html("<div>" + this.leadingZeros(data.days, 3) + " <span>ရက်</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>နာရီ</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>မီနစ်</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>sec</span></div>");
+            $(this.el).html("<div>" + this.leadingZeros(data.days, 3) + " <span>ရက်</span></div><div>" + this.leadingZeros(data.hours, 2) + " <span>နာရီ</span></div><div>" + this.leadingZeros(data.min, 2) + " <span>မီနစ်</span></div><div>" + this.leadingZeros(data.sec, 2) + " <span>စက္ကန့်</span></div>");
           }
         });
 
