@@ -7096,3 +7096,18 @@ td.visible-print {
     display: none !important;
   }
 }
+
+
+
+
+table {border-color:#000000;}
+table th {background-color: #000000; border-color:#ffffff; color: white;border-radius: 500px;}
+table th {font-weight: bold;}
+
+table td {background-color: #f5f5f5; border-color:#000000;border-radius: 500px;}
+table td {font-weight: bold;}
+
+table ta {background-color: #f5f5f5; border-color:#000000;}
+
+table {width: 100%;}
+th, td {border: 2px solid black;padding: 0px; text-align: Center;height: 50px;}
