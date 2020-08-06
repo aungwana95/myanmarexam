@@ -13,7 +13,7 @@ $( function() {
 		]
 	} )( 'overlay' );
 	
-        var endDate = "August 9, 2020 7:36:25";
+        var endDate = "August 9, 2020 0:29:25";
 
         $('.countdown.simple').countdown({ date: endDate });
 
